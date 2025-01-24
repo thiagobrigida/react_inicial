@@ -14,6 +14,7 @@ export function Header() {
       <picture>
         <img src={Logo} alt="Logo do site" />
       </picture>
+      <h1>Nbaupdates.com</h1>
       <SNavBar>
         <input id="menu-toggle" type="checkbox" />
         <label htmlFor="menu-toggle">

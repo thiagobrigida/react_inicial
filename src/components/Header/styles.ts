@@ -7,6 +7,10 @@ export const SHeader = styled.header`
   border-bottom: 0.4rem solid ${colors.primary};
   display: flex;
   height: 6rem;
+  background-color: black;
+  h1 {
+    color: #ba0909;
+  }
   picture {
     margin-left: 0.5rem;
     padding: 0.5rem;
@@ -37,7 +41,7 @@ export const SNavBar = styled.nav`
       align-items: center;
       a {
         text-decoration: none;
-        color: ${colors.black};
+        color: ${colors.white};
       }
     }
     li:hover {
@@ -71,7 +75,7 @@ export const SNavBar = styled.nav`
     label[for="menu-toggle"] div.menu-hamburger span.hamburger {
       position: relative;
       display: block;
-      background-color: ${colors.black};
+      background-color: ${colors.white};
       width: 30px;
       height: 2px;
       border-radius: 1rem;
@@ -80,7 +84,7 @@ export const SNavBar = styled.nav`
     label[for="menu-toggle"] div.menu-hamburger span.hamburger:after {
       position: absolute;
       display: block;
-      background-color: ${colors.black};
+      background-color: ${colors.white};
       width: 100%;
       height: 100%;
       content: "";

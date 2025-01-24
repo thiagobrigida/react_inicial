@@ -8,13 +8,13 @@ export const SSection = styled.section`
   flex-direction: column;
   margin-top: 2rem;
   h1 {
-    color: ${colors.primary};
+    color: ${colors.white};
     font-weight: 500;
     margin-bottom: 2rem;
     font-size: 2rem;
   }
   form {
-    background-color: ${colors.primary};
+    background-color: #ef3333;
     border: 0.2rem solid ${colors.primary};
     border-radius: 1rem;
     padding: 1.5rem;
@@ -23,7 +23,9 @@ export const SSection = styled.section`
       border: 0.15rem solid ${colors.primary};
       border-radius: 0.6rem;
       display: flex;
-      margin: 0.5rem 0;
+      margin: 0.5rem 0; img3 {
+    width: 100%;
+  }
       svg {
         height: 3rem;
         width: 3rem;

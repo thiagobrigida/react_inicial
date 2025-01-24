@@ -8,13 +8,13 @@ export const SSection = styled.section`
   justify-content: center;
   flex-direction: column;
   h1 {
-    color: ${colors.primary};
+    color: ${colors.white};
     font-weight: 500;
     margin-bottom: 2rem;
     font-size: 2rem;
   }
   form {
-    background-color: ${colors.primary};
+    background-color: #ef3333;
     border: 0.2rem solid ${colors.primary};
     border-radius: 1rem;
     padding: 1.5rem;
